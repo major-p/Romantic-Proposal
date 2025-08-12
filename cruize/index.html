@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cyber Major">
+    <meta name="description" content="A romantic proposal page asking someone to be your girlfriend">
+    <meta name="keywords" content="proposal, girlfriend, love, relationship">
+    <title>Cyber Major - Will You Be My Girlfriend?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="question-container">
+            <h1 id="question-text">Will you be my girlfriend?</h1>
+            <div class="hearts">💖 💝 💖</div>
+            <div class="button-container">
+                <button class="yes-btn" onclick="sayYes()">Yes</button>
+                <button class="no-btn" id="noBtn" onmouseenter="runAway()" onclick="runAway()">No</button>
+            </div>
+            <div class="please-text" id="pleaseText">Please, my heart, say yes? 🥺</div>
+        </div>
+        <div class="success-container" id="successContainer">
+            <div class="celebration">🎉 💖 🎉</div>
+            <h1 class="success-title">Yay! You said Yes!</h1>
+            <p class="success-text">See you on Friday! 💕</p>
+            <div class="success-emojis">😘 💖 🌹</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
